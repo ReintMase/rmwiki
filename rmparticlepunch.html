@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plugin Information</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <h1>Информация о плагине и помощь</h1>
+</header>
+<main>
+    <section class="plugin-info">
+        <h2>RMParticlePunch</h2>
+        <p>Версия: <strong>1.1</strong></p>
+        <p>▶ Плагин добавляет яркие визуальные эффекты при каждом ударе по врагу, что делает битвы более динамичными. Независимо от того, сражаетесь ли вы с мобами или участвуете в PvP, каждый удар будет сопровождаться зрелищными спецэффектами, которые подчеркнут каждый момент боя.</p>
+        <h1>Частые вопросы:</h1>
+        <div class="dropdown">
+            <a id="effectsLink" class="questions" href="#">1: Какие эффекты можно использовать?</a>
+            <div id="effectsDropdown" class="dropdown-content">
+                <a href="#">EXPLOSION_NORMAL</a>
+                <a href="#">EXPLOSION_LARGE</a>
+                <a href="#">EXPLOSION_HUGE</a>
+                <a href="#">FIREWORKS_SPARK</a>
+                <a href="#">WATER_BUBBLE</a>
+                <a href="#">WATER_SPLASH</a>
+                <a href="#">WATER_WAKE</a>
+                <a href="#">SUSPENDED</a>
+                <a href="#">SUSPENDED_DEPTH</a>
+                <a href="#">CRIT</a>
+                <a href="#">CRIT_MAGIC</a>
+                <a href="#">SMOKE_NORMAL</a>
+                <a href="#">SMOKE_LARGE</a>
+                <a href="#">SPELL</a>
+                <a href="#">SPELL_INSTANT</a>
+                <a href="#">SPELL_MOB</a>
+                <a href="#">SPELL_MOB_AMBIENT</a>
+                <a href="#">SPELL_WITCH</a>
+                <a href="#">DRIP_WATER</a>
+                <a href="#">DRIP_LAVA</a>
+                <a href="#">VILLAGER_ANGRY</a>
+                <a href="#">VILLAGER_HAPPY</a>
+                <a href="#">TOWN_AURA</a>
+                <a href="#">NOTE</a>
+                <a href="#">PORTAL</a>
+                <a href="#">ENCHANTMENT_TABLE</a>
+                <a href="#">FLAME</a>
+                <a href="#">LAVA</a>
+                <a href="#">CLOUD</a>
+                <a href="#">REDSTONE</a>
+                <a href="#">SNOWBALL</a>
+                <a href="#">SNOW_SHOVEL</a>
+                <a href="#">SLIME</a>
+                <a href="#">HEART</a>
+                <a href="#">BARRIER</a>
+                <a href="#">ITEM_CRACK</a>
+                <a href="#">BLOCK_CRACK</a>
+                <a href="#">BLOCK_DUST</a>
+                <a href="#">WATER_DROP</a>
+                <a href="#">MOB_APPEARANCE</a>
+                <a href="#">DRAGON_BREATH</a>
+                <a href="#">END_ROD</a>
+                <a href="#">DAMAGE_INDICATOR</a>
+                <a href="#">SWEEP_ATTACK</a>
+                <a href="#">FALLING_DUST</a>
+                <a href="#">TOTEM</a>
+                <a href="#">SPIT</a>
+                <a href="#">SQUID_INK</a>
+                <a href="#">BUBBLE_POP</a>
+                <a href="#">CURRENT_DOWN</a>
+                <a href="#">BUBBLE_COLUMN_UP</a>
+                <a href="#">NAUTILUS</a>
+                <a href="#">DOLPHIN</a>
+                <a href="#">SNEEZE</a>
+                <a href="#">CAMPFIRE_COSY_SMOKE</a>
+                <a href="#">CAMPFIRE_SIGNAL_SMOKE</a>
+                <a href="#">COMPOSTER</a>
+                <a href="#">FLASH</a>
+                <a href="#">FALLING_LAVA</a>
+                <a href="#">LANDING_LAVA</a>
+                <a href="#">FALLING_WATER</a>
+                <a href="#">DRIPPING_HONEY</a>
+                <a href="#">FALLING_HONEY</a>
+                <a href="#">LANDING_HONEY</a>
+                <a href="#">FALLING_NECTAR</a>
+                <a href="#">SOUL_FIRE_FLAME</a>
+                <a href="#">ASH</a>
+                <a href="#">CRIMSON_SPORE</a>
+                <a href="#">WARPED_SPORE</a>
+                <a href="#">SOUL</a>
+                <a href="#">DRIPPING_OBSIDIAN_TEAR</a>
+                <a href="#">FALLING_OBSIDIAN_TEAR</a>
+                <a href="#">LANDING_OBSIDIAN_TEAR</a>
+                <a href="#">REVERSE_PORTAL</a>
+                <a href="#">WHITE_ASH</a>
+                <a href="#">LEGACY_BLOCK_CRACK</a>
+                <a href="#">LEGACY_BLOCK_DUST</a>
+                <a href="#">LEGACY_FALLING_DUST</a>
+            </div>
+        </div>
+
+        <a class="questions" href="#"><br>2: Почему мой партикл работает не так как я хочу?</a>
+        <div class="answer" style="display: none;">
+            Из за того что майнкрафт не даёт изменить некоторые параметры как и сами партиклы, я не могу управлять ими, поэтому лучше их не использовать!
+        </div>
+        <a class="questions" href="#"><br>3: Почему после выдачи прав на эффект, всё равно нельзя его активировать?</a>
+        <div class="answer" style="display: none;">
+            Если такое произошло, проверьте то, добавили ли вы permission <strong>rmparticle.use</strong>, если вы про него забыли, то вставьте в права игрока, тогда всё заработает!
+        </div>
+        <div class="plugin-images">
+            <img src="img/img1.png" alt="Plugin Screenshot 1">
+            <img src="img/img_1.png" alt="Plugin Screenshot 2">
+        </div>
+        <a class="questions" href="#"><br>Команды плагина:</a>
+        <div class="answer" style="display: none;">
+            <br>
+            /rmparticle help - Помощь по плагину<br>
+            /rmparticle on (Тип_партикла) - Включает выбранные партикл<br>
+            /rmparticle off - Выключает партикл<br>
+            /rmparticle list - Показывает имеющиеся эффекты<br>
+            <br>
+        </div>
+        <a class="questions" href="#"><br>Алиясы:</a>
+        <div class="answer" style="display: none;">
+            <br>
+            ● rmp<br>
+            ● rparticle<br>
+            ● rmpart<br>
+            <br>
+        </div>
+    </section>
+    <script src="js/answer.js"></script>
+</main>
+<footer>
+    <p>&copy; 2024 RMParticlePunch. Все права защищены.</p>
+</footer>
+</body>
+</html>
