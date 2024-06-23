@@ -133,3 +133,10 @@ footer p {
     margin-top: 10px;
     display: none; /* Hide the answer by default */
 }
+
+.image{
+    border-radius: 50px; /* Радиус скругления */
+    box-shadow: 4px 4px 10px #666; /* Параметры тени */
+    width: 200px;
+    margin-bottom: 20px;
+}
